@@ -32,6 +32,13 @@ class TestDict(unittest.TestCase):
         d = Dict()
         with self.assertRaises(AttributeError):
             value = d.empty
+
+    def setUp(self):
+        print('\nsetUp...')
+
+    def tearDown(self):
+        print('tearDown...')
+
 # This is the easiest way to run
 # if __name__ == '__main__':
 #     unittest.main()
