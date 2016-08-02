@@ -37,5 +37,7 @@ def bar():
         print('ValueError!')
         raise
 
-
 bar()
+
+# main()
+# print('END')
