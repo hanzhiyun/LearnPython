@@ -39,4 +39,6 @@ print eval(math_string)
 print eval(math_string + '1')
 print eval(expression_string)
 
-raw_input()
+#raw_input()
+import os
+os.system('pause')
