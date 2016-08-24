@@ -38,3 +38,5 @@ print c
 print eval(math_string)
 print eval(math_string + '1')
 print eval(expression_string)
+
+raw_input()
